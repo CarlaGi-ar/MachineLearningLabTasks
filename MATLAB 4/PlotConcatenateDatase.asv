@@ -1,0 +1,9 @@
+%function to plot teh concatenate datasets
+function plotConcatenatedDataSet(TrainData,label);
+figure;
+plot(TrainData(:,1), TrainData(:,2),'b.');
+
+title('Merged Dataset');
+xlabel('x-value');
+ylabel('y-value');
+grid on;
